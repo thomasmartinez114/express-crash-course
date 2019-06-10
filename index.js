@@ -24,8 +24,8 @@ const members = [
     }
   ];
 
-app.get('/api/memebers', (req, res) => {
-    res.json(memebers);
+app.get('/api/members', (req, res) => {
+    res.json(members);
 });
 
 // Set a Static Folder
